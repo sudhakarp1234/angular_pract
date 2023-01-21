@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Raw Material Stock Tracker</title>
+  <style>
+    table {
+  border-collapse: collapse;
+  width: 100%;
+}
+body {
+  background-color: yellow;
+}
+#login-form {
+  background-color: red;
+  width: 20%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+  </style>
+</head>
+<body>
+  <center><h1>Raw Material Stock Tracker</h1></center>
+  <div id="login-form">
+    <form>
+      <label for="username">Username:</label>
+      <input type="text" id="username" name="username">
+      <br>
+      <label for="password">Password:</label>
+      <input type="password" id="password" name="password">
+      <br><br>
+      <button type="button" id="login-button">Login</button>
+    </form></div><br>
+  <table id="stock-table">
+    <tr>
+      <th>Material Name</th>
+      <th>Current Stock</th>
+      <th>Update Stock</th>
+    </tr>
+    <tr>
+      <td>Material 1</td>
+      <td id="material-1-stock"></td>
+      <td><input type="number" id="material-1-update"></td>
+    </tr>
+    <tr>
+      <td>Material 2</td>
+      <td id="material-2-stock"></td>
+      <td><input type="number" id="material-2-update"></td>
+    </tr>
+    <tr>
+      <td>Material 3</td>
+      <td id="material-3-stock"></td>
+      <td><input type="number" id="material-3-update"></td>
+    </tr>
+    <tr>
+      <td>Material 4</td>
+      <td id="material-4-stock"></td>
+      <td><input type="number" id="material-4-update"></td>
+    </tr>
+    <tr>
+      <td>Material 5</td>
+      <td id="material-5-stock"></td>
+      <td><input type="number" id="material-5-update"></td>
+    </tr>
+    <tr>
+      <td>Material 6</td>
+      <td id="material-6-stock"></td>
+      <td><input type="number" id="material-6-update"></td>
+    </tr>
+    <tr>
+      <td>Material 7</td>
+      <td id="material-7-stock"></td>
+      <td><input type="number" id="material-7-update"></td>
+    </tr>
+  </table><br>
+  <button id="update-button">Update Stock</button>
+  </body>
+</html>
